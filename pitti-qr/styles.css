@@ -1,3 +1,4 @@
+/* Hide all with the specific class from print */
 @media print {
     .hide-from-print {
         display: none;
@@ -11,8 +12,16 @@
     flex-direction: row;
     flex-wrap: nowrap;
     align-content: left;
-    /* justify-content: flex-start; */  /* Move to the left instead of center */
+    /* justify-content: flex-start; */
+    /* Move to the left instead of center */
     justify-content: center;
     align-items: center;
     gap: 20px;
+}
+
+/* Align print button */
+.print-button {
+    text-align: center;
+    margin: auto;
+    padding-top: 20px;
 }

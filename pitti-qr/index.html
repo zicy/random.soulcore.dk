@@ -27,6 +27,12 @@
         </div>
     </div>
 
+    <div class="hide-from-print print-button">
+        <button onclick="window.print()">
+            Print
+        </button>
+    </div>
+
     <script>
         // Generate the QR code using the QRCode constructor from qrcode.js
         new QRCode(document.getElementById("qrcodeCanvas"), {
