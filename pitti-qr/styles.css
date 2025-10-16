@@ -6,6 +6,22 @@
 
 }
 
+/* Make heigh of the page 100% of the page height*/
+html,
+body {
+    height: 100vh;
+    margin: 0;
+}
+
+/* Center content in the body */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
 /* QR code (& print) container  */
 .qr-container {
     display: flex;
@@ -22,6 +38,9 @@
 /* Align print button */
 .print-button {
     text-align: center;
-    margin: auto;
     padding-top: 20px;
+}
+
+.print-button button {
+    font-size: 30px;
 }
